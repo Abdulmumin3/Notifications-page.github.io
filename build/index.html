@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/favicon-32x32.ico" rel="icon"/>
+    <title>Notification Page | Frontend Mentor</title>
+  </head>
+  <body class="min-h-full bg-v-light-grayish-blue">
+    <section
+      class="max-w-xl rounded-lg border-0 bg-white p-5 shadow-lg sm:mx-auto sm:my-10 sm:max-w-3xl"
+    >
+      <div class="notifications mb-3 flex justify-between">
+        <p class="v-dark-blue text-2xl font-black">
+          Notifications
+          <span class="rounded-lg border-0 bg-v-dark-blue px-2 text-white"
+            >3</span
+          >
+        </p>
+
+        <p class="text-light-grayish-blue hover:font-black hover:text-v-dark-blue active:font-black active:text-v-dark-blue cursor-pointer">Mark all as read</p>
+      </div>
+
+      <div
+        class="text-light-grayish-blue mb-2 flex w-full gap-4 rounded-lg bg-light-grayish-blue-1 p-2"
+      >
+        <img
+          src="./assets/images/avatar-mark-webber.webp"
+          alt="Mark Webber's picture"
+          class="h-10 w-10 rounded-full"
+        />
+        <div class="relative">
+          <span class="font-black text-v-dark-blue hover:font-black hover:text-dark-grayish-blue active:font-black active:text-dark-grayish-blue cursor-pointer">Mark Webber</span>
+          reacted to your recent post
+          <span class="font-[500] hover:font-extrabold hover:text-v-dark-blue active:font-extrabold active:text-v-dark-blue cursor-pointer">My first tournament today!</span> <br /><span
+            class="font-[600] text-grayish-blue"
+            >1m ago</span
+          >
+
+          <div
+            class="absolute bottom-8 left-full h-2 w-2 rounded-full bg-red-700"
+          ></div>
+        </div>
+      </div>
+
+      <div
+        class="text-light-grayish-blue mb-2 flex w-full gap-4 rounded-lg bg-light-grayish-blue-1 p-2"
+      >
+        <img
+          src="./assets/images/avatar-angela-gray.webp"
+          alt="Angela Gray's picture"
+          class="h-10 w-10 rounded-full"
+        />
+        <div class="relative">
+          <span class="font-extrabold text-v-dark-blue hover:font-extrabold hover:text-dark-grayish-blue active:font-extrabold active:text-dark-grayish-blue cursor-pointer">Angela Gray</span>
+          followed you
+          <br /><span class="font-[600] text-grayish-blue">5m ago</span>
+          <div
+            class="absolute bottom-8 left-full h-2 w-2 rounded-full bg-red-700"
+          ></div>
+        </div>
+      </div>
+
+      <div
+        class="text-light-grayish-blue mb-4 flex w-full gap-4 rounded-lg bg-light-grayish-blue-1 p-2"
+      >
+        <img
+          src="./assets/images/avatar-jacob-thompson.webp"
+          alt=""
+          class="h-10 w-10 rounded-full"
+        />
+        <div class="relative">
+          <span class="font-extrabold text-v-dark-blue hover:font-extrabold hover:text-dark-grayish-blue active:font-extrabold active:text-dark-grayish-blue cursor-pointer">Jacob Thompson</span>
+          has joined your group
+          <span class="font-[700] text-v-dark-blue hover:font-bold hover:text-v-dark-blue active:font-bold active:text-v-dark-blue cursor-pointer">Chess Club</span>
+          <br /><span class="font-[600] text-grayish-blue">1 day ago</span>
+          <div
+            class="absolute bottom-8 left-full h-2 w-2 rounded-full bg-red-700"
+          ></div>
+        </div>
+      </div>
+      <div class="text-light-grayish-blue mb-2 flex w-full gap-4 p-2">
+        <img
+          src="./assets/images/avatar-rizky-hasanuddin.webp"
+          alt="Rizky Hasanuddin's picture"
+          class="h-10 w-10 rounded-full"
+        />
+        <div>
+          <span class="font-extrabold text-v-dark-blue hover:font-extrabold hover:text-dark-grayish-blue active:font-extrabold active:text-dark-grayish-blue cursor-pointer">Rizky Hasanuddin</span>
+          sent you a private message<br />
+          <span class="font-[600] text-grayish-blue">5 days ago</span>
+        </div>
+      </div>
+      
+      <div
+        class="text-light-grayish-blue mb-8 ml-16 border border-solid border-light-grayish-blue-2 p-6 hover:bg-grayish-blue active:bg-grayish-blue hover:text-light-grayish-blue-1 active:text-light-grayish-blue-1 cursor-pointer rounded-md"
+      >
+      <!-- <a href="#" class="hover:bg-grayish-blue hover:text-grayish-blue active:bg-grayish-blue active:text-grayish-blue"> -->
+        Hello, thanks for setting up the Chess Club. I've been a member for a
+        few weeks now and I'm already having lots of fun and improving my game.
+      <!-- </a> -->
+      </div>
+      <div class="text-light-grayish-blue relative mb-2 flex w-full gap-4 p-2">
+        <img
+          src="./assets/images/avatar-kimberly-smith.webp"
+          alt="Kimberly Smith's picture"
+          class="h-10 w-10 rounded-full"
+        />
+        <div>
+          <span class="font-extrabold text-v-dark-blue hover:font-extrabold hover:text-dark-grayish-blue active:font-extrabold active:text-dark-grayish-blue cursor-pointer">Kimberly Smith</span>
+          commented on your picture<br />
+          <span class="font-[600] text-grayish-blue">1 week ago</span>
+        </div>
+        <img
+          src="./assets/images/image-chess.webp"
+          alt="image of chess picture"
+          class="absolute right-px h-10 w-10 rounded-lg"
+        />
+      </div>
+      <div class="text-light-grayish-blue relative mb-2 flex w-full gap-4 p-2">
+        <img
+          src="./assets/images/avatar-nathan-peterson.webp"
+          alt="Nathan Peterson's picture"
+          class="h-10 w-10 rounded-full"
+        />
+        <div>
+          <span class="font-extrabold text-v-dark-blue hover:font-extrabold hover:text-dark-grayish-blue active:font-extrabold active:text-dark-grayish-blue cursor-pointer">Nathan Peterson</span>
+          reacted to your recent post
+          <span class="font-[700] text-grayish-blue">
+            5 end-game strategies to increase your win rate</span
+          ><br />
+          <span class="font-[600] text-grayish-blue">2 weeks ago</span>
+        </div>
+      </div>
+      <div class="text-light-grayish-blue relative mb-2 flex w-full gap-4 p-2">
+        <img
+          src="./assets/images/avatar-anna-kim.webp"
+          alt="Anna Kim's picture"
+          class="h-10 w-10 rounded-full"
+        />
+        <div>
+          <span class="font-extrabold text-v-dark-blue hover:font-extrabold hover:text-dark-grayish-blue active:font-extrabold active:text-dark-grayish-blue cursor-pointer">Anna Kim</span>
+          Anna Kim left the group
+          <span class="font-[700] font-bold text-v-dark-blue">Chess Club</span><br />
+          <span class="font-[600] text-grayish-blue">2 weeks ago</span>
+        </div>
+      </div>
+    </section>
+    <div class="attribution text-center">
+      Challenge by
+      <a class="text-attrib-color font-bold" https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Anonymous🎭</a>.
+    </div>
+  </body>
+</html>
