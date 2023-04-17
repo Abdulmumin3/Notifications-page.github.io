@@ -696,16 +696,16 @@ html {
   font-weight: 700;
 }
 
+.font-black {
+  font-weight: 900;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 .font-extrabold {
   font-weight: 800;
-}
-
-.font-black {
-  font-weight: 900;
 }
 
 .text-attrib-color {
@@ -739,16 +739,16 @@ html {
   background-color: hsl(219 14% 63% / var(--tw-bg-opacity));
 }
 
+.hover\:font-black:hover {
+  font-weight: 900;
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
 
 .hover\:font-extrabold:hover {
   font-weight: 800;
-}
-
-.hover\:font-black:hover {
-  font-weight: 900;
 }
 
 .hover\:text-dark-grayish-blue:hover {
@@ -776,16 +776,16 @@ html {
   background-color: hsl(219 14% 63% / var(--tw-bg-opacity));
 }
 
+.active\:font-black:active {
+  font-weight: 900;
+}
+
 .active\:font-bold:active {
   font-weight: 700;
 }
 
 .active\:font-extrabold:active {
   font-weight: 800;
-}
-
-.active\:font-black:active {
-  font-weight: 900;
 }
 
 .active\:text-dark-grayish-blue:active {
