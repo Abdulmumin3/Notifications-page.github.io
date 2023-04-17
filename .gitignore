@@ -15,7 +15,6 @@
 .DS_Store
 .prettierignore
 style-guide.md
-README.md
 README-template.md
 design
 design\active-states.jpg
@@ -23,4 +22,4 @@ design\desktop-design.jpg
 design\desktop-preview.jpg
 design\mobile-design.jpg
 node_modules
-.html
+index.html
